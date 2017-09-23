@@ -28,7 +28,7 @@ namespace Medeil.Controllers
         public UserManager<ApplicationUser> UserManager { get; private set; }
 
         //
-        // GET: /Account/Login
+        // GET: /Account/Logintreff
         [AllowAnonymous]
         public ActionResult Login(string returnUrl)
         {
